@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <main class="container">
+    <h1>{{ .Title }}</h1>
+    <p>Authored by {{ .Params.author }}</p>
+    <p>{{ .Date }}</p>
+    <p>{{ .Params.description }}</p>
+    <div>
+      {{ .Content }}
+    </div>
+  </main>
+{{ end }}

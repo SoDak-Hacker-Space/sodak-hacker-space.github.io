@@ -1,5 +1,5 @@
 baseURL = "https://sodakhacker.space"
-title   = "SoDak Hacker Space"
+title   = "SoDak Hackerspace"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -221,14 +221,14 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/SoDak-Hacker-Space"
+    url  = "https://github.com/SoDak-Hackerspace"
 
 [languages]
   [languages.en]
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   [languages.en.params]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = "collaborate, learn, tinker"
 
 [menu]
   [[menu.main]]
@@ -236,10 +236,18 @@ disableHugoGeneratorInject = false
     name       = "about"
     url        = "about/"
   [[menu.main]]
-    identifier = "posts"
-    name       = "posts"
-    url        = "posts/"
+    identifier = "projects"
+    name       = "projects"
+    url        = "projects/"
   [[menu.main]]
     identifier = "members"
     name       = "members"
     url        = "members/"
+  [[menu.main]]
+    identifier = "contact us"
+    name       = "contact us"
+    url        = "contact_us/"
+  [[menu.main]]
+    identifier = "schedule"
+    name       = "schedule"
+    url        = "schedule/"
